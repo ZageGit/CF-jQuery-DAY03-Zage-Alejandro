@@ -1,0 +1,62 @@
+var products = `[
+    {
+        "name": "MacBook",
+        "price": 199,
+        "descr": "A Short product description here",
+        "image": "notebook_apple.png",
+        "type": "Notebook",
+        "point": "HOT",
+        "rating":"",
+        "quantity":10
+    },
+    {
+        "name": "Samsung Notebook 7",
+        "price": 50,
+        "descr": "A Short product description here",
+        "image": "notebook_samsung.png",
+        "type": "Notebook",
+        "point": "HOT",
+        "rating":"",
+        "quantity":10
+    },
+    {
+        "name": "iPhone 7",
+        "price": 299,
+        "descr": "A Short product description here",
+        "image": "phone_iphone.png",
+        "type": "Phone",
+        "point": "Special",
+        "rating":"",
+        "quantity":10
+    },
+    {
+        "name": "Samsung Galaxy x7",
+        "price": 1000,
+        "descr": "A Short product description here",
+        "image": "phone_samsung.png",
+        "type": "Phone",
+        "point": "Sale",
+        "rating":"",
+        "quantity":10
+    },
+    {
+        "name": "iPad",
+        "price": 1000,
+        "descr": "A Short product description here",
+        "image": "tablet_ipad.png",
+        "type": "Tablet",
+        "point": "Sale",
+        "rating":"",
+        "quantity":10
+    },
+    {
+        "name": "Samsung Tablet",
+        "price": 1000,
+        "descr": "A Short product description here",
+        "image": "tablet_samsung.png",
+        "type": "Tablet",
+        "point": "Sale",
+        "rating":"",
+        "quantity":10
+    }
+]`;
