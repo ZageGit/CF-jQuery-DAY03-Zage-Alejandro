@@ -51,6 +51,21 @@ div#moveme
 	/*border-radius: 5px;*/
 	/*cursor: default;*/
 }
+div#moveme1
+{
+	position:absolute;
+	width: 6em;
+	height: 6em;
+	font-weight: bold;
+	line-height: 4em;
+	/*text-align: center;*/
+	margin: 5px;
+	/*color: #fff;*/
+	/*background-color: #00c;*/
+	overflow: visible;
+	/*border-radius: 5px;*/
+	/*cursor: default;*/
+}
 
 h1
 {
