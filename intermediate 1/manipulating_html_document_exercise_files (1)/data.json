@@ -58,5 +58,26 @@ var products = `[
         "point": "Sale",
         "rating":"",
         "quantity":10
+    },
+    {
+        "name": "Xiaomi MI",
+        "price": 1000,
+        "descr": "A Short product description here",
+        "image": "tablet_xiaomi.png",
+        "type": "Tablet",
+        "point": "Sale",
+        "rating":"",
+        "quantity":10
+    },
+    {
+        "name": "Huawei P30",
+        "price": 1000,
+        "descr": "A Short product description here",
+        "image": "phone_huawei.png",
+        "type": "Phone",
+        "point": "Sale",
+        "rating":"",
+        "quantity":10
     }
+
 ]`;
