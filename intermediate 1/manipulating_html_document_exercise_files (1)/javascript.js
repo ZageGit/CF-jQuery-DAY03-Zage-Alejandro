@@ -5,6 +5,7 @@ var json = JSON.parse(products);
 $(document).ready(function(){
 
     for(let i=0; i < json.length; i++){
+        $(`#${i} .btn`).attr("number", `${i}`);
         $(`#${i} span:contains('Product Category')`).text(json[i].type);
         
         if (json[i].type == "Notebook"){
@@ -18,6 +19,10 @@ $(document).ready(function(){
 
     };
 
+    $(".btn").on('click', function(){
+        let index = $(this).attr("number");
+        json[index].quantity--;
+    });
 
 
 
